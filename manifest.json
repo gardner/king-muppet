@@ -1,0 +1,23 @@
+{
+  "name": "King Muppet",
+  "description": "Make the internet better",
+  "version": "1.0",
+  "icons": {
+    "32": "icons/32.png",
+    "72": "icons/72.png",
+    "128": "icons/128.png",
+    "512": "icons/512.png"
+  },
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+        "matches": [
+            "*://*/*"
+        ],
+        "js": [
+            "content.js"
+        ],
+        "run_at": "document_end"
+    }
+  ]
+}
