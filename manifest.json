@@ -1,7 +1,7 @@
 {
   "name": "King Muppet",
-  "description": "Make the internet better",
-  "version": "1.0",
+  "description": "Replace all occurrences of the text \"Brian Tamaki\" with the words \"King Muppet\", on most pages.",
+  "version": "1.0.1",
   "icons": {
     "32": "icons/32.png",
     "72": "icons/72.png",
