@@ -1,7 +1,6 @@
 var elements = document.getElementsByTagName('*');
 
-const replacements = ['King Muppet'];
-const newText = replacements[Math.floor(Math.random() * replacements.length)];
+const newText = 'King Muppet';
 
 for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
